@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TasksAndBackStack_3">
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
